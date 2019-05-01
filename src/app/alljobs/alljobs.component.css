@@ -1,0 +1,13 @@
+span{
+    color: blue;
+}
+p{
+    text-align: left;
+    background-color: white;
+}
+li {
+    list-style-type: none;
+  }
+  a{
+    color: black;
+}

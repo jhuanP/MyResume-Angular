@@ -1,0 +1,50 @@
+div#a {
+    text-align: center;
+    margin: 2px;
+    margin-right: 25px;
+    padding: 0px;
+    left: 0px;
+    align-self: none;
+}
+div#b{
+    text-align: center;
+    margin: 2px;
+    margin-right: 34px;    
+    padding: 0px;
+    left: 0px;
+    align-self: none;
+}
+
+div#b2{
+    text-align: center;
+    margin: 2px;
+    margin-right: 30px;    
+    padding: 0px;
+    left: 0px;
+    align-self: none;
+}
+
+div#c{
+    text-align: center;
+    margin: 2px;
+    margin-right: 41px;
+    padding: 0px;
+    left: 0px;
+    align-self: none;
+}
+
+body{
+    padding: 1px;
+    margin-top: 0px;
+    background-color: red;
+}
+button#Submit1{
+    text-align: center;
+    margin-left: 650px
+}
+span{
+    color: blue;
+}
+a{
+    color: black;
+}
