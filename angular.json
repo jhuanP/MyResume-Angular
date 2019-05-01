@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "MySite": {
+    "MyResume-Angular": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,15 +13,14 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/MySite",
+            "outputPath": "dist/MyResume-Angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "src/assets/img"
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"
@@ -59,18 +58,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "MySite:build"
+            "browserTarget": "MyResume-Angular:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "MySite:build:production"
+              "browserTarget": "MyResume-Angular:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "MySite:build"
+            "browserTarget": "MyResume-Angular:build"
           }
         },
         "test": {
@@ -104,7 +103,7 @@
         }
       }
     },
-    "MySite-e2e": {
+    "MyResume-Angular-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -113,11 +112,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "MySite:serve"
+            "devServerTarget": "MyResume-Angular:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "MySite:serve:production"
+              "devServerTarget": "MyResume-Angular:serve:production"
             }
           }
         },
@@ -133,5 +132,5 @@
       }
     }
   },
-  "defaultProject": "MySite"
+  "defaultProject": "MyResume-Angular"
 }
