@@ -8,9 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "heroku-postbuild": "ng build --prod" 
-   },
-    "private": true,
+    "heroku-postbuild": "ng build --prod"
+  },
+  "private": true,
   "dependencies": {
     "@angular/animations": "~7.2.0",
     "@angular/cli": "^7.3.8",
@@ -25,7 +25,7 @@
     "core-js": "^2.5.4",
     "express": "^4.16.4",
     "path": "^0.12.7",
-    "rxjs": "~6.3.3",
+    "rxjs": "~6.5.1",
     "tslib": "^1.9.0",
     "typescript": "~3.2.2",
     "zone.js": "~0.8.26"
